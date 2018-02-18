@@ -10,3 +10,7 @@ def index():
 @frontend_app.route('/sample_page')
 def sample_page():
     return render_template('sample_page.html')
+
+@frontend_app.route('/Amatya')
+def projectpage():
+    return render_template('projectpage.html')
